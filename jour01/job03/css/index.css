@@ -7,8 +7,37 @@
 table{
     width: 100%;
     margin:2rem auto;
-    text-align:center;
+    text-align:left;
+    font-size:16px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
     border-collapse: collapse;
-    font-size:;
+    border-radius:5px;
+    overflow:hidden;
 
+}
+
+
+thead{
+    background-color:#009879;
+    color:#ffffff;
+
+}
+
+thead th{
+    padding:12rem 15rem;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+tbody tr{
+    border-bottom:1px solid #ddd;
+}
+
+tbody tr:hover{
+    cursor:pointer;
+    background-color:#73767a;
+}
+
+tbody td{
+    padding:12rem 15rem;
 }
