@@ -9,7 +9,7 @@
     <main>
         <form action="index.php" method="get">
             <input type="text" name="largeur" placeholder="Valeur Largeur :">
-            <input type="text" name="hauteur" placeholder="Valeur Hauteur">
+            <input type="text" name="hauteur" placeholder="Valeur Hauteur :">
             <input type="submit" value="Dessiner">
         </form>
     </main>

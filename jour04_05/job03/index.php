@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job04</title>
+    <title>Job03</title>
 </head>
 <body>
     <main>
@@ -26,7 +26,7 @@ Vous pouvez ensuite afficher avec echo directement dans votre page par exemple :
 “Le nombre d’argument POST envoyé est : “*/
 
 if(!empty($_POST)){
-    echo "Le nombre d'arugment est :" . count($_POST);
+    echo "Le nombre d'argument est :" . count($_POST);
 }else{
     echo "Aucun argument POST n'a été envoyé";
 }

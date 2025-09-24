@@ -11,4 +11,5 @@ echo "Nombre de caractères : " . strlen($str);
 
 
 
+
 ?>
