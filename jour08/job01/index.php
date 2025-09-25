@@ -4,7 +4,7 @@ Créez une variable de session nommée “nbvisites”. A chaque fois que la pag
 visitée, ajoutez 1. Afficher le contenu de cette variable.
 Ajoutez un bouton nommé “reset” qui permet de réinitialiser ce compteur.
 */
-session_start(); // https://www.php.net/manual/fr/function.session-start.php
+session_start(); 
 
 if (isset($_POST['reset'])) {
     $_SESSION['nbvisites'] = 0;
